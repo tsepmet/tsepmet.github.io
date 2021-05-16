@@ -1,0 +1,79 @@
+<!doctype html>  <!-- we are announcing to the browser that this website is written html5, rather than an earlier version -->
+<html lang="en"> <!-- we are opening the "html" tag which contains our entire site! We are also announcing the languge (English) to the browser -->
+
+<head> <!-- everything in the "head" tag is for the browser and search engine. It won't appear on your website -->
+	<meta charset="utf-8"> <!-- here we are announcing the character encoding -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- here we are giving instructions on how to control the page's dimensions and scaling -->
+	<meta name="author" content="YOUR NAME"> <!-- here we are announcing the author (you!)-->
+	<meta name="description" content="DESCRIBE YOUR SITE IN A SENTENCE"> <!-- here we are describing what this site is about-->
+	<title>TITLE HERE</title> <!-- here is the title of the site -->
+	<!-- below is a link to our CSS "stylesheet" so our webpage can look nice -->
+	<!-- <link href="styles.css" rel="stylesheet" type="text/css">          -->
+	<meta property="og:image" content="IMAGE URL HERE"> <!-- here is the main image for the site -->
+	<meta property="og:url" content="URL OF SITE HERE"> <!-- here is the URL of the site -->
+</head> 
+
+<body>
+	<header> <!-- the "header" tag is for introductory content or navigational links -->
+		<nav> <!-- the "nav" tag is for navigational links -->
+			<ul> <!-- the "ul" tag is for an unordered (not numbered) list of things -->
+				<li><a href="#aboutMe">About me</a></li> <!-- the "li" tag is for a single list item, and the "a" tag is for a link -->
+				<li><a href="#myWork">My Work</a></li> <!-- the "li" tag is for a single list item, and the "a" tag is for a link -->
+				<li><a href="#contact">Contact</a></li> <!-- the "li" tag is for a single list item, and the "a" tag is for a link -->
+			</ul>
+		</nav>
+		<img src="img/logo.gif" alt="Stylized image of a colourful shape" id="logo"> <!-- the "img" tag is how we insert an image -->
+	</header> 
+
+	<main> <!-- The "main" tag is for the main content (no headers or footers) -->
+		<section id="aboutMe" class="section"> <!-- the "section" tag is used for content! Learn more (or possibly get more confused) here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section -->
+			<h1>About Me</h1> <!-- the "h1" tag is for a top-level header -->
+			<p>My name is friend. I design and build things for people. I build play experiences,
+				installations, experimental video games, stories, communities, spaces, and events.</p> <!-- the "p" tag is for text -->
+			<h2>Why</h2> <!-- the "h2" tag is for a second-level header -->
+			<p>I'm curious about people: how we express, how we connect, and how we experience the world around us. I
+				enjoy
+				making things that invite people to think in different ways, bring people together, and allow people to
+				imagine different possibilities.</p>
+			<h2>How</h2>
+			<p>I work with people. Together we think about goals, values, interaction, motivation, friction, barriers,
+				and
+				flow. I listen to people and spend time thinking, experimenting, building things, and then listening
+				again.
+			</p>
+		</section>
+
+		<section id="myWork" class="section">
+			<h1>My Work</h1>
+			<h2>Co-operative and playful experiences</h2>
+			<p>I make cooperative games, huge games for entire cities, and experimental games incorporating things like
+				smell.</p>
+			<br> <!-- the "br" tag makes a line break. There are many other ways to do this with CSS as well -->
+			<img src="img/common.jpg" alt="An image of a graph with many nodes inside a purple circle." class="work-Img"> <!-- the "img" tag is for inserting an image. Each image should always have an "alt" for screenreaders -->
+			<img src="img/closer.jpg" alt="A photograph of two people standing in front of an enormous screen with pink spikes, a score, and another person watching them." class="work-Img">
+			<img src="img/burst.jpg" alt="An image of a woman gesturing towards her face while surrounded with gauzy white fabric and colourful balloons." class="work-Img">
+		</section>
+
+		<section id="contact" class="section">
+			<h1>Contact:</h1>
+			<p>I'm available for consultations, collaborations, and projects. Write to me at <a
+					href="mailto:%20marieflanagan@gmail.com" target="_blank">marieflanagan@gmail.com</a>.</p> <!-- the "a" tag is for inserting a link. In this case we are inserting a "mailto" link on the email -->
+		</section>
+
+	</main>
+
+	<footer> <!-- the "footer" tag is for content at the bottom of the page -->
+		<a href="mailto:%20marieflanagan@gmail.com" target="blank"><img src="img/social-icons/mail.svg" alt="Email"
+				class="feather"></a>
+		<a href="https://linkedin.com/in/marieflanagan/" target="blank"><img src="img/social-icons/linked-in.svg"
+				alt="LinkedIn" class="feather"></a>
+		<a href="https://twitter.com/omarieclaire/" target="blank"><img src="img/social-icons/twitter.svg" alt="Twitter"
+				class="feather"></a>
+		<a href="https://www.facebook.com/0marieclaire/" target="blank"><img src="img/social-icons/facebook.svg"
+				alt="Facebook" class="feather"></a>
+		<a href="https://www.instagram.com/omarieclaire/" target="blank"><img src="img/social-icons/instagram.svg"
+				alt="Instagram" class="feather"></a>
+	</footer>
+</body>
+
+</html>

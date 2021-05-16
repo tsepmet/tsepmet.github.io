@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+
+body {
+  font-family: 'Source Sans Pro' sans-serif;
+  font-size: 1.15rem;
+}
+
+.section {
+  margin: 6rem 10vw;
+}
+
+p {
+  line-height: 1.5;
+  /* margin: 20vw; */
+}
+
+a {
+  color: #2f08ff;
+}
+
+a:hover {
+  color: salmon;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#logo {
+  display: block;
+  max-width: 70vw;
+  margin: auto;
+}
+
+.work-Img {
+  display: block;
+  max-width: 80vw;
+  margin: auto;
+}
+
+h1 {
+  border-bottom: 1px solid rgba(82, 44, 252, .8);
+  color: rgba(82, 44, 252, .8);
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  padding: 1rem 0 1rem 0;
+}
+
+h2 {
+  color: rgba(250, 128, 114, 0.9);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2rem 0 .35rem 0;
+
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  padding: 0 0 0 2rem;
+  list-style: none;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  margin: 2rem 0 0 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  color: rgba(102, 97, 127, .95);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: opacity 150ms ease-in-out;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  /* color: rgba(46, 34, 107, 0.95); */
+}
+
+#contact {
+  padding: 0 0 3rem 0;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* padding: .6em 4em; */
+}
+
+footer {
+  padding: 3rem 0 3rem 0;
+  background-color: rgba(245, 243, 251, .9);
+  text-align: center;
+  width: 100%;
+}
+
+.feather {
+  margin: .3em 1.1em;
+  opacity: 0.3;
+}
+
+.feather:hover {
+  opacity: 0.7;
+}
