@@ -1,0 +1,23 @@
+body {
+    background: greenyellow;
+}
+.work-Img {
+    display: block;
+    max-width: 80vw;
+    margin: auto;
+    padding-left: 30px;
+  }
+iframe {
+    padding-left: 165px;
+}
+p {
+    font-size: x-large;
+    font-weight: 1000;
+    font-style: italic;
+    color: purple
+}
+h1 {
+    font-size: xx-large;
+    font-weight: 2000;
+    color: rgb(230, 41, 198);
+}
