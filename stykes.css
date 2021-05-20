@@ -14,10 +14,18 @@ p {
     font-size: x-large;
     font-weight: 1000;
     font-style: italic;
-    color: purple
+    color: purple;
+    text-align: center;
 }
 h1 {
     font-size: xx-large;
     font-weight: 2000;
     color: rgb(230, 41, 198);
+    text-align: center;
 }
+
+.sticker {
+    display: inline-table;
+    padding-left: 50px;
+}
+
